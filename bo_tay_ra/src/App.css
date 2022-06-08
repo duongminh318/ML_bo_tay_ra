@@ -1,0 +1,27 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.video{
+    width: 480px;
+    height: 360px;
+    background-color: #333;
+
+}
+
+.control{
+  margin-top:25px;
+}
+
+.btn{
+  padding: 4px 16px;
+  font-size: 1.4rem;
+  margin:0 8px;
+}
+.main.touched{
+  background-color: red;
+}
